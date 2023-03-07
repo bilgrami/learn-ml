@@ -1,9 +1,14 @@
-notebook_name=learnml_notebook
-container_name=bilgrami/learn-ml:v1
-echo running ${container_name}
-
-docker run --name ${notebook_name} -it --rm \
+docker_source=bilgrami/learn-ml:v1
+docker_container_name=learnml_notebook
+echo running ${docker_container_name}
+docker run --name ${docker_container_name} -it --rm \
     -p 8888:8888 \
-    -v work_learnml:/home/jovyan/work \
+    -v ${docker_container_name}:/home/jovyan/work \
     -e GRANT_SUDO=yes \
-    ${container_name}
+    ${docker_source}
+
+if [ $? -eq 0 ]; then
+    echo "Success"
+else
+    echo "FAILED"
+fi
