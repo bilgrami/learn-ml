@@ -1,8 +1,8 @@
-# 01-EDA (Exploratory Data Analysis)
+# jupyter (Exploratory Data Analysis)
 
 [01-ExploratoryDataAnalysis](./work/01-ExploratoryDataAnalysis.ipynb)
 
-![01-EDA](../assets/01-eda.jpg)
+![jupyter](../assets/jupyter.jpg)
 
 ---
 
