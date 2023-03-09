@@ -13,9 +13,9 @@ This requires Docker to be installed on your machine
 
 ## Exploratory Data Analysis
 
-[01-ExploratoryDataAnalysis](./jupyter/work/01-ExploratoryDataAnalysis.ipynb)
+[01-ExploratoryDataAnalysis](jupyter/work/01-ExploratoryDataAnalysis.ipynb)
 
-![jupyter](./assets/jupyter.jpg)
+![jupyter](assets/01-eda.jpg)
 
 ---
 
