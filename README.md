@@ -13,7 +13,7 @@ This requires Docker to be installed on your machine
 
 ## Exploratory Data Analysis
 
-[01-ExploratoryDataAnalysis](jupyter/work/Part 0 - Exploratory Data Analysis/Python/01-ExploratoryDataAnalysis.ipynb)
+[01-ExploratoryDataAnalysis](jupyter/work/Part%200%20-%20Exploratory%20Data%20Analysis/Python/01-ExploratoryDataAnalysis.ipynb)
 
 ![jupyter](assets/01-eda.jpg)
 
